@@ -1,0 +1,13 @@
+import abc
+class Student(abc.ABC):
+    @abc.abstractmethod
+    def say_hello(self):
+        print("hello")
+        pass
+
+
+import abc
+class login(abc.ABC):
+    @abc.abstractmethod
+    def validate(self):
+        pass

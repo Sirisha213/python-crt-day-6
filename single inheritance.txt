@@ -1,0 +1,20 @@
+class Parent:
+    name="Parent class"
+    def method_1(self):
+        print("This is method of class A")
+class Child(Parent):
+    pass
+ob=Child()
+print(ob.name)
+ob.method_1()
+
+
+class Parent:
+    name="Lion"
+    def method_1(self):
+        print("Lion is parent of cub")
+class Child(Parent):
+    pass
+ob=Child()
+print(ob.name)
+ob.method_1()

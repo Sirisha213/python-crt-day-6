@@ -1,0 +1,18 @@
+class A:
+    var1="in class A"
+class B(A):
+    var2="in class B"
+class C(B):
+    var3="in class C"
+class D(C):
+    var4="in class D"
+
+
+class tree:
+    var1="grandmother in class tree"
+class branch(tree):
+    var2="mother in class branch"
+class leaf(branch):
+    var3="daughter in class leaf"
+ob=branch()
+print(ob.var2)

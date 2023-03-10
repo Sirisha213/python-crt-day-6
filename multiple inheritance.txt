@@ -1,0 +1,23 @@
+class A:
+    def m1(self):
+        print("in class A")
+class B:
+    def m1(self):
+        print("in class B")
+class C(A,B):
+    pass
+ob=C()
+ob.m1()
+
+
+class Lion:
+    def a1(self):
+        print("Lion is father")
+class Lioness:
+    def a1(self):
+        print("Lioness is mother")
+class cub(Lioness,Lion):
+    pass
+ob=cub()
+ob.a1()
+

@@ -1,0 +1,13 @@
+class A:
+    val=10
+    def say_hello(self):
+        print("in class a")
+class B:
+    val=100
+    def say_hello(self):
+        print("in class b")
+import sample 
+ob1=sample.A()
+ob2=sample.B()
+ob1.say_hello()
+ob2.say_hello()

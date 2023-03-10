@@ -1,0 +1,12 @@
+import abc
+class Login(abc):
+    @abstractmethod
+    def validate(self):
+        pass
+class Insta(Login):
+    def welcome(self):
+        print("welcome to instagram")
+    def validate(self):
+        print("validate login")
+    def pec_Login(self):
+        pass

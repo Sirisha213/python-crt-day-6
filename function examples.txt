@@ -1,0 +1,48 @@
+class A:
+    def welcome(self):
+        print("in class A")
+class B:
+    def welcome(self):
+        print("in class b")
+class C:
+    def welcome(self):
+        print("in class C")
+
+
+class A:
+    def welcome(self):
+        print("in class A")
+class B(A):
+    def welcome(self):
+        print("in class B")
+class C(B):
+    pass
+
+
+class A:
+    def welcome(self,a):
+        print(a)
+    def welcome(self,a,b):
+        print(a,b)
+ob=A()
+ob.welcome(10,20)
+
+
+class A:
+    def welcome(self,a,b):
+        print(a,b)
+    def welcome(self,a):
+        print(a)
+ob=A()
+ob.welcome(10)
+
+
+class A:
+    def welcome(self,a,b):
+        print(a,b)
+    def welcome(self,a):
+        print(a)
+    def welocome(self):
+        print("in class A")
+ob=A()
+ob.welcome()
